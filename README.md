@@ -16,7 +16,7 @@ To run the project:
 4. And, in the goals enter the following command 'clean test allure:serve -DtestNGRunnerFile=testng.xml -Dbrowser=chrome -Dheadless=false -Denv=prod' and run
 And, these options can be modified as well. (eg: browser = firefox, headless=true)
 
-5. Also, allure report has been integrated with this framework. So once the tests run, refresh the project. Expand the Results -> allure-report folder and open the index.html in a browser.
+5. Also, allure report has been integrated with this framework. So once the tests run, refresh the project. Expand the Results -> allure-report folder and open the index.html in a browser (Incase, if the report doesn't open automatically)
 
 Operating System used - OS X Catalina,
 IDE used - STS 3.9.15(Spring tool suite),
