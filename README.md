@@ -18,12 +18,12 @@ And, these options can be modified as well. (eg: browser = firefox, headless=tru
 
 5. Also, allure report has been integrated with this framework. So once the tests run, refresh the project. Expand the Results -> allure-report folder and open the index.html in a browser.
 
-Operating System used - OS X Catalina
-IDE used - STS 3.9.15(Spring tool suite)
-Reports - Allure (Integrated with the framework)
-Build tools - Maven
-Unit testing framework - TestNG
-Programming language - Java
-Automation framework - Selenium
+Operating System used - OS X Catalina,
+IDE used - STS 3.9.15(Spring tool suite),
+Reports - Allure (Integrated with the framework),
+Build tools - Maven,
+Unit testing framework - TestNG,
+Programming language - Java,
+Automation framework - Selenium,
 
 And all the dependencies are included in pom.xml.
