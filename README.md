@@ -2,7 +2,7 @@ Project - Automate E.ggtimer.com
 
 Instructions to execute the script:
 
-Clone the git repo 
+Clone the git repo (git clone -b master https://github.com/git-publicrepo-vishnnukp/e.ggtimer.git)
 Once downloaded, open the project in your favorite IDE.
 
 To run the project:
