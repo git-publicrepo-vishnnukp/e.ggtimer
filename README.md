@@ -13,7 +13,7 @@ To run the project:
 
 3. In the new configuration, click on workspace button and select the project which you imported.
 
-4. And, in the goals enter the following command 'clean test allure:report -DtestNGRunnerFile=testng.xml -Dbrowser=chrome -Dheadless=false -Denv=prod' and run
+4. And, in the goals enter the following command 'clean test allure:serve -DtestNGRunnerFile=testng.xml -Dbrowser=chrome -Dheadless=false -Denv=prod' and run
 And, these options can be modified as well. (eg: browser = firefox, headless=true)
 
 5. Also, allure report has been integrated with this framework. So once the tests run, refresh the project. Expand the Results -> allure-report folder and open the index.html in a browser.
