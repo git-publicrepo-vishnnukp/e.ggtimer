@@ -23,7 +23,12 @@ IDE used - STS 3.9.15(Spring tool suite),
 Reports - Allure (Integrated with the framework),
 Build tools - Maven,
 Unit testing framework - TestNG,
-Programming language - Java,
+Programming language - Java 1.8
 Automation framework - Selenium,
 
 And all the dependencies are included in pom.xml.
+
+Trouble shooting:
+Incase if you get this below error, select jdk from the JRE tab. (Right click on project -> Run configurations -> click on the new configuration which you added under Maven build -> select JRE tab -> And select the JDK from the alternate JRE)
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project e.eggtimer: Compilation failure [ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
